@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:"poppins";
+    font-family: "poppins-medium";
+    font-family: "poppins-light";
+    font-family: "poppins-semibold";
+    font-family: "poppins-regular";
+    src: url(poppins-black-webfont.woff);
+    src:url(poppins-medium-webfont.woff2);
+    src:url(poppins-light-webfont.woff2);
+    src:url(poppins-semibold-webfont.woff2);
+    src:url(poppins-regular-webfont.woff2);
+}
+
+
+
+
+body{
+    background-color: rgb(34,34,34);
+    color: white;
+    font-family:"poppins-regular";
+    max-width: 1200px;
+    margin:  auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{ /* aqui colocamos a linha na horizontal*/
+    
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+a{
+    color:white
+    
+    
+}
+
+a:hover{
+    color: rgb(132, 14,201);
+    transition: 0.3s all;
+}
+
+#botão{ /* aqui fazemos o botão decorado atraves de uma id no html*/
+    border: 2px solid rgb(132, 14,201);/* primeiro secionamos a expessura depois disso o modo da borda e apos isso a cor*/
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#botão{
+    background-color: rgb(132, 14,201);
+    color: white;
+}
+h1{
+    font-weight: 200px;
+    
+}
+
+
+main{
+    display: flex;/* aqui que fazemos a divisão na main*/
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+main{
+    margin: auto;
+    padding: 0;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-family: poppins-medium ;
+}
+
+span{
+    color: rgb(132, 14,201);
+}
+
+p{
+  line-height: 20px;
+  max-width: 500px;
+  font-family:"poppins-light" ;
+}
+img{
+    width:620px;
+}
+
+form{ /* aqui ajustamos o campo de formulário*/
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+#botão2{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(132, 14,201);
+    color: white;
+    font-weight: bold;
+}
+
+#botão2:hover{
+    cursor: pointer;
+
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border:none;
+    font-size: 15px;
+}
